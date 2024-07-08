@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "insta-spider": "^1.0.2",
+    "priyansh-ig-downloader": "^2.0.0",
+    "youtube-downloader-2": "^1.1.1",
+    "youtube-toolkit": "^1.0.5",
+    "ytdl-core": "^4.11.5"
+  },
+  "name": "all-in-one-video-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sufiyan Sakaria",
+  "license": "ISC",
+  "description": ""
+}
