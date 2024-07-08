@@ -57,8 +57,6 @@ app.post("/download-youtube", async (req, res) => {
       }
     }
 
-    console.log(format);
-
     if (!format) {
       return res.status(404).send("No suitable video found for download.");
     }
