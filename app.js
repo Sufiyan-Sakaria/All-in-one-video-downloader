@@ -42,20 +42,18 @@ app.post("/download-youtube", async (req, res) => {
 
     // Find the format with quality hd720
     let format = videos.find(
-      (video) => video.width == 1920 && video.height == 1080
+      (video) => video.width > 1900 && video.height > 1000
     );
 
     if (format === undefined) {
-      format = videos.find(
-        (video) => video.width == 1280 && video.height == 720
-      );
+      format = videos.find((video) => video.width > 1200 && video.height > 700);
       if (format === undefined) {
         format = videos.find(
-          (video) => video.width == 854 && video.height == 480
+          (video) => video.width > 800 && video.height > 400
         );
         if (format === undefined) {
           format = videos.find(
-            (video) => video.width == 640 && video.height == 360
+            (video) => video.width > 600 && video.height > 300
           );
         }
       }
