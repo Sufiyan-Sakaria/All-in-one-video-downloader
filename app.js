@@ -3,8 +3,6 @@ const path = require("path");
 const app = express();
 const instagramGetUrl = require("priyansh-ig-downloader");
 const ytdl = require("ytdl-core");
-const fs = require("fs");
-const { log } = require("console");
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
