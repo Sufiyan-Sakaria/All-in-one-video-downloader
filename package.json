@@ -2,7 +2,7 @@
   "name": "all-in-one-video-downloader",
   "version": "1.0.0",
   "description": "A web application to download videos from Instagram and YouTube.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
